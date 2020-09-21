@@ -2,10 +2,10 @@
 class Database
 {   
      //ตั้งค่าเชื่อมต่อ DATABASE
-    private $host = "localhost";
-    private $db_name = "testpdo";
-    private $username = "root";
-    private $password = "";
+    private $host = "us-cdbr-east-02.cleardb.com";
+    private $db_name = "heroku_b17c7c5f045d5cd";
+    private $username = "bd70755a0d98e0";
+    private $password = "0b0e9437";
     public $conn;
      
     public function dbConnection()
